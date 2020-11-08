@@ -1,0 +1,437 @@
+/* ------ GLOBAL ------ */
+
+body {
+	font-family: 'Montserrat';
+}
+
+ul {
+	padding: 0px;
+	list-style: none;
+}
+
+img{
+	/* max-width: 100%; */
+}
+
+/* ------ HEADER ------ */
+
+.header {
+	background-color: #EF3741;
+	padding-top: 65px;
+	padding-bottom: 35px;
+	text-transform: uppercase;
+	font-family: 'Josefin Sans'!important;
+}
+
+.header img{
+	max-width: 70%;
+}
+
+.contenedor__mod{
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.logo{
+	text-align: center;
+}
+
+.menuHeader{
+	text-align: right;
+	margin-top: 40px;
+	margin-bottom: 90px;
+}
+
+.menuHeader li{
+	font-size: 17.82pt;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+.menuHeader li a {
+	text-decoration: none;
+	color:#fff;
+}
+
+.menuHeader li:last-child{
+	margin-right: 0;
+}
+
+.menuHeader li a:hover {
+	color: #ffffff;
+}
+
+.menuHeader li.current-menu-item {
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.redes{
+	text-align: right;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.redes li{
+	margin-right: 25px;
+	display: inline-block;
+}
+
+.redes li:last-child{
+	margin-right: 0;
+}
+
+.redes li a {
+	text-decoration: none;
+}
+
+.redes li img{
+	/* height: 24px; */
+	/* width: 20px; */
+}
+
+/* ------ SLIDE ------ */
+
+.gradient{
+	background-image: linear-gradient(to top, #eeece4 30%, #ef3741 100px);
+	height: 453px;
+}
+
+.slide{
+	background-color: #ffffff;
+	margin: auto;
+	height: 100%;
+	width: 80%;
+	text-align: center;
+}
+
+.slide p{
+	color: #ef3741;
+	font-size: 500%;
+	padding-top: 150px;
+}
+
+/* ------ CONTENT ------ */
+
+.cuerpo{
+	/*background: url('../img/curva_superior.png');*/
+	/*height: 1357px;*/
+	/*margin-bottom: 300px;*/
+}
+.cuerpo .cuerpo__superior{
+	padding-top: 100px;
+	background-color: #eeece4;
+}
+.cuerpo .cuerpo__inferior{
+	background-image: url('../img/curva_superior_mod.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: top;
+	margin-bottom: 20px;
+}
+
+.imagen1{
+	text-align: right;
+}
+
+.puntos1{
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 120px;
+}
+
+.sobremi{
+	display: inline;
+	font-size: 18px;
+	color:  #EF3741;
+	font-family: 'Josefin Sans';
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.julian{
+	font-weight: bold;
+	color: #333333;
+}
+
+.texto1{
+	max-width: 68%;
+	font-size: 19px;
+	color: #333333;
+}
+
+.titulos{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 19px;
+	color: #333333;
+	margin-top: 40px;
+}
+
+.objetivo{
+	color: #333333;
+	font-weight: 500;
+}
+
+.cursos{
+	color: #32112C;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.contenedor_cursos{
+	background-color: #fff;
+	text-align: center;
+	padding-top: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+	-webkit-box-shadow: 3px 3px 8px 0px rgba(50, 50, 48, 0.25);
+	-moz-box-shadow: 3px 3px 8px 0px rgba(50, 50, 48, 0.25);
+	box-shadow: 3px 3px 8px 0px rgba(50, 50, 48, 0.25);
+}
+
+.titulo2, .precio{
+	color: #EE3740;
+	text-align: left;
+	margin-left: 40px;
+	font-weight: 900;
+	font-size: 21px;
+}
+
+.titulo2{
+	margin-top: 15px;
+	text-transform: uppercase;
+	max-width: 50%;
+}
+
+.clases_online{
+	text-align: left;
+	font-size: 12px;
+	color: #808080;
+	margin: 20px 0px 5px 40px;
+}
+
+.ver_mas{
+	background-color: #EE3740;
+	display: block;
+	padding: 15px 0px;
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 20px;
+	color: #fff;
+}
+
+.ver_mas:hover{
+	text-decoration: none;
+	color: #fff;
+}
+
+.ver_mas_cursos{
+	background-color: #EEECE4;
+	color: #32112C;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 23px;
+	font-weight: 800;
+	/*padding: 15px 30px;*/
+	padding: 7px 10px;
+    display: block;
+    max-width: 220px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.ver_mas_cursos:hover{
+	text-decoration: none;
+	color: #32112C;
+}
+
+/* ------ CONTACTO ------ */
+
+.contenedor__contacto{
+	max-width: 80%;
+}
+
+.pregunta__contacto{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	line-height: 90px;
+	font-size: 59.42pt;
+	color: #32112C;
+}
+
+.contacto__texto{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17pt;
+	color: #EE3740;
+}
+
+.contenedor__form{
+	position: relative;
+	height: 525px;
+	background-color: #fff;
+	display: inline-block;
+}
+
+.contenedor__formulario{
+	position: absolute;
+	right: 110px;
+	margin-bottom: 50px;
+}
+
+.puntos2{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.form .form-control{
+	border: 0px;
+	background-color: #F9F9F9;
+	font-size: 13.26pt;
+	width: 483px;
+	height: 43.4px;
+	border-radius: 0;
+}
+
+.form .form-control:focus{
+	box-shadow: none;
+}
+
+.form .form-control::placeholder{
+	color: #B3B3B3;
+}
+
+#text-area{
+	height: 234.4px;
+	resize: none;
+}
+
+.boton{
+	text-align: center;
+	background-color: #32112C;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 22.23pt;
+	height: 43.4px;
+	width: 145px;
+}
+
+.boton a{
+	color: #ffffff;
+}
+
+.boton a:hover{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* ------ INVITACION ------ */
+
+.invitacion{
+	margin-top: 100px;
+	background-image: url('../img/curva.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	padding-bottom: 15%;
+}
+
+.contenedor__inv{
+	max-width: 80%;
+}
+
+.contenedor__rel{
+	position: relative;
+	height: 700px;
+	margin: 0px;
+}
+.invitacion__img{
+	position: absolute;
+	right: 90px;
+}
+
+.puntos3{
+	position: absolute;
+	right: 0px;
+	bottom: 100px;
+}
+
+.invitacion__texto{
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bold;
+	font-size: 63.03pt;
+	color: #EE3740;
+	line-height: normal;
+}
+
+.invitacion__redes li{
+	display: inline-block;
+	margin-right: 30px;
+}
+
+/* ------ FOOTER ------ */
+
+.footer{
+	background-color: #EF3741;
+	padding: 64px 0px;
+	color: #ffffff;
+}
+
+.logo_footer{
+	height: 80px;
+	width: auto;
+	padding-left: 290px;
+}
+
+.borde{
+	border-right: 1px solid #fff;
+}
+
+.texto_footer, .texto_footer_redes, .facebook_footer{
+	padding-left: 43px;
+	font-size: 18px;
+	font-weight: 500;
+	margin-right: 15px;
+}
+
+.texto_footer_redes{
+	font-weight: bold;
+}
+
+.texto_footer a{
+	color: #ffffff;
+}
+
+.masvino_footer{
+	display: inline-block;
+	font-size: 14px;
+	margin-left: 15px;
+	font-weight: bold;
+}
+
+/* ============ RESPONSIVE ============*/
+@media only screen and (max-width: 48em){
+
+	br{
+		display: none;
+	}
+
+	/* HEADER */
+
+	.imagen1{
+		text-align: center;
+	}
+
+	/* ------ FOOTER ------ */
+	.footer{
+		text-align: center;
+	}
+
+	.logo_footer, .texto_footer, .texto_footer_redes{
+		padding: 0px;
+		margin: 0px 0px 16px;
+	}
+}
