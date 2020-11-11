@@ -16,7 +16,7 @@
             <section class="logo">
               <?php 
                 /*
-                  Para obtener la pagina principal o el incio del sitio
+                  Para obtener la pagina principal o el inicio del sitio
                   utilizar home_url(): http://localhost/ o http://cabureweb.com/
                 */
               ?>
