@@ -185,6 +185,7 @@ img{
 .contenedor_cursos{
 	background-color: #fff;
 	text-align: center;
+	margin: 40px 0px;
 	padding-top: 30px;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -204,7 +205,7 @@ img{
 .titulo2{
 	margin-top: 15px;
 	text-transform: uppercase;
-	max-width: 50%;
+	max-width: 45%;
 }
 
 .clases_online{
@@ -410,6 +411,22 @@ img{
 	font-size: 14px;
 	margin-left: 15px;
 	font-weight: bold;
+}
+
+/* ----- PAGINA CURSOS ------ */
+
+.nuestroscursos p{
+	margin-bottom: 0%;
+	background-color: #EF3741;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 62.6pt;
+}
+
+.cuerpo__cursos{
+	background-image: linear-gradient(to top, #ffffff 82%, #ef3741 100px);
 }
 
 /* ============ RESPONSIVE ============*/

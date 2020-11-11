@@ -10,7 +10,7 @@
 ?>
 
 <main>
-	<!-- SLIDE -->
+  <!-- SLIDE -->
   <div class="gradient">
     <div class="slide">
       <p>SLIDES</p>
