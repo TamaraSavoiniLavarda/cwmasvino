@@ -110,7 +110,7 @@
                     }
                   }
                 }
-                $categoria = substr($categoria, 0, -2) . '.';
+                $categoria = substr($categoria, 0, -2);
                 /* 
                   Obtenemos el contenido del post
                 */
@@ -143,7 +143,7 @@
   <section class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center pb-5">
-        <a href="<?=home_url().'/blog/'?>" class="ver_mas_cursos">ver más cursos</a>
+        <a href="<?=home_url().'/cursos/'?>" class="ver_mas_cursos">ver más cursos</a>
       </div>
     </div>
   </section>
