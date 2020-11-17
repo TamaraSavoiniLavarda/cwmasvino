@@ -58,7 +58,7 @@
                     }
                   }
                 }
-                $categoria = substr($categoria, 0, -2) . '.';
+                $categoria = substr($categoria, 0, -2);
                 /* 
                   Obtenemos el contenido del post
                 */

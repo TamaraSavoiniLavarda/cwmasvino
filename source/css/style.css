@@ -459,13 +459,10 @@ img{
 	text-decoration: none;
 }
 
-.contenedor_curso{
-	background-image: linear-gradient(to top, #ffffff 40%, #ef3741 100px);
-}
-
 .clases_online_curso{
 	color: #808080;
 	font-size: 18.74pt;
+	margin-top: 50px;
 }
 
 .precio_curso{
@@ -477,6 +474,21 @@ img{
 
 .contenedor__mod_curso{
 	max-width: 65%;
+	/* position: absolute; */
+}
+
+.contenedor__titulo{
+	background-color: #ef3741;
+}
+
+.entrada__curso{
+	position: relative;
+}
+
+.imagen__curso{
+	position: absolute;
+	right: 5%;
+	bottom: 30%;
 }
 
 /* ============ RESPONSIVE ============*/
