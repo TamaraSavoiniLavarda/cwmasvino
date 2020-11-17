@@ -442,10 +442,11 @@ img{
 }
 
 .contenedor_añadir_mp{
-	display: inline-block;
+	margin-top: 30px;
 }
 
 .añadir__carrito{
+	text-transform: uppercase;
 	background-color: #ef3741;
 	padding: 10px 25px;
 	color: #ffffff;
@@ -473,7 +474,7 @@ img{
 }
 
 .contenedor__mod_curso{
-	max-width: 65%;
+	max-width: 70%;
 	/* position: absolute; */
 }
 
@@ -489,6 +490,18 @@ img{
 	position: absolute;
 	right: 5%;
 	bottom: 30%;
+}
+
+.orientacion{
+	padding-top: 50px;
+	max-width: 70%;
+	margin: auto;
+}
+
+.orientacion p{
+	font-family: 'Montserrat';
+	font-weight: 400;
+	font-size: 21pt;
 }
 
 /* ============ RESPONSIVE ============*/
