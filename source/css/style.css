@@ -475,7 +475,6 @@ img{
 
 .contenedor__mod_curso{
 	max-width: 70%;
-	/* position: absolute; */
 }
 
 .contenedor__titulo{
@@ -492,16 +491,49 @@ img{
 	bottom: 30%;
 }
 
-.orientacion{
+.contenido__curso{
 	padding-top: 50px;
 	max-width: 70%;
 	margin: auto;
 }
 
-.orientacion p{
+.contenido__curso p{
 	font-family: 'Montserrat';
 	font-weight: 400;
 	font-size: 21pt;
+}
+
+hr {
+	margin: 50px 0px;
+	border-width: 2px;
+}
+
+.desc_roja {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	font-size: 26pt;
+	color: #ef3741;
+}
+
+.puntos4{
+	position: absolute;
+	right: 5px;
+	bottom: 70%;
+}
+
+.invitacion_rel{
+	position: relative;
+	margin-top: 100px;
+	background-image: url('../img/curva.png');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	padding-bottom: 15%;
+}
+
+.puntos5{
+	position: absolute;
+	bottom: 30%;
 }
 
 /* ============ RESPONSIVE ============*/
