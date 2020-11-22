@@ -40,7 +40,7 @@
                   Podemos indicarle un image_size si fue previamente definido en functions.php
                   https://developer.wordpress.org/reference/functions/get_the_post_thumbnail_url/
                 */
-                $imagen = get_the_post_thumbnail_url();
+                $imagen = get_the_post_thumbnail_url($postid, 'img_curso');
                 /*
                   Obtenemos las categorias del post.
                   

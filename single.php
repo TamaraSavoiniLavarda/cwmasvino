@@ -22,37 +22,33 @@
 	$categoria = substr($categoria, 0, -2);
 ?>
 <!-- ENTRADA DE CURSO INDIVIDUAL -->
-	<div class="entrada__curso">
+	<section class="entrada__curso">
 		<img src="<?=getIMG('puntos4.png')?>" alt="" class="puntos4">
-		<section class="contenedor__titulo">
-			<div class="container-fluid contenedor__mod_curso">
+		<div class="container-fluid">
+			<div class="contenedor__mod_curso">
 				<div class="row">
 					<div class="col-lg-7">
 						<h3 class="titulo__curso"><?=$titulo?></h3>
+						<div class="contenedor_cat_pre">
+							<p class="clases_online_curso"><?=$categoria?></p>
+							<h3 class="precio_curso"><?=$contenido?></h3>
+							<div class="contenedor_añadir_mp">
+								<div>
+									<a href="<?=$link?>" class="añadir__carrito">Añadir al carrito</a>
+									<img src="<?= getIMG('mercadolibre.png')?>" alt="mercadolibre">
+								</div>
+						</div>
+						</div>
 					</div>
-					<div class="col-lg-5 imagen__curso">
-						<img src="<?=$imagen?>" alt="<?=$titulo?>">
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="container-fluid contenedor__mod_curso">
-			<div class="row">
-				<div class="col-lg-7 ">
-					<div>
-						<p class="clases_online_curso"><?=$categoria?></p>
-						<h3 class="precio_curso"><?=$contenido?></h3>
-					</div>
-					<div class="contenedor_añadir_mp">
-						<div>
-							<a href="<?=$link?>" class="añadir__carrito">Añadir al carrito</a>
-							<img src="<?= getIMG('mercadolibre.png')?>" alt="mercadolibre">
+					<div class="col-lg-5">
+						<div class="imagen__curso">
+							<img src="<?=$imagen?>" alt="<?=$titulo?>">
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 <?php else: ?>
 	<p>El post no esta disponible</p>
 <?php endif; ?>
@@ -121,7 +117,7 @@
                   Podemos indicarle un image_size si fue previamente definido en functions.php
                   https://developer.wordpress.org/reference/functions/get_the_post_thumbnail_url/
                 */
-                $imagen = get_the_post_thumbnail_url();
+                $imagen = get_the_post_thumbnail_url($postid, 'img_curso');
                 /*
                   Obtenemos las categorias del post.
                   
