@@ -26,7 +26,7 @@
               </div> -->
             </section>
           </div>
-          <div class="col-lg-7">
+          <div class="col-lg-9">
             <?php
               /*
                 Obtenemos el menu definido en functions.php y agregamos una clase padre.
@@ -39,12 +39,12 @@
                 );
               ?>
           </div>
-          <div class="col-lg-2">
+          <!-- <div class="col-lg-2">
             <ul class="redes">
-              <li><a href="" target="_blank"><img src="<?=getIMG('icon_header_f.png')?>" alt="facebook-logo"></a></li>
-              <li><a href=""><img src="<?=getIMG('icon_header_i.png')?>" alt="instagram-logo"></a></li>
+              <li><a href="" target="_blank"><img src="<?php // echo getIMG('icon_header_f.png')?>" alt="facebook-logo"></a></li>
+              <li><a href=""><img src="<?php // echo getIMG('icon_header_i.png')?>" alt="instagram-logo"></a></li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

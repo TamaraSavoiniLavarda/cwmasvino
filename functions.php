@@ -6,6 +6,21 @@ function getCSS($filename){return get_template_directory_uri().'/source/css/'.$f
 function getJS($filename){return get_template_directory_uri().'/source/js/'.$filename; }
 function getIMG($filename){return get_template_directory_uri().'/source/img/'.$filename; }
 
+function agregarItemsMenu($items, $args){
+  $facebook = '';
+  $instagram = '';
+  $imgFace = getIMG("icon_header_f.png");
+  $imgInst = getIMG("icon_header_i.png");
+  $contacto = home_url().'/#formulario-contacto';
+
+    if( $args->theme_location == 'menu_principal' ){
+        $items .= '<li><a href="'.$contacto.'"> Contacto </a></li>';
+        $items .= '<li><a href="'.$facebook.'"> <img src="'.$imgFace.'" alt="facebook" /></a></li>';
+        $items .= '<li><a href="'.$instagram.'"> <img src="'.$imgInst.'" alt="instagram" /></a></li>';
+    }
+    return $items;
+}
+add_filter('wp_nav_menu_items', 'agregarItemsMenu', 10, 2);
 /*
   Incluyendo Styles al theme.
   https://developer.wordpress.org/reference/functions/wp_enqueue_style/
@@ -75,7 +90,7 @@ add_filter('body_class', 'theme_agregarNombreEnBody');
 */
 function forzarCropEnDimensiones() {
   add_image_size('medium', get_option('medium_size_w'), get_option('medium_size_h'), true);
-  // add_image_size('ejemplo', 300, 300, true);
+  add_image_size('img_curso', 257, 257, true);
 }
 add_action('after_setup_theme','forzarCropEnDimensiones');
 /*

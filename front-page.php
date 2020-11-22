@@ -92,7 +92,7 @@
                   Podemos indicarle un image_size si fue previamente definido en functions.php
                   https://developer.wordpress.org/reference/functions/get_the_post_thumbnail_url/
                 */
-                $imagen = get_the_post_thumbnail_url();
+                $imagen = get_the_post_thumbnail_url($postid, 'img_curso');
                 /*
                   Obtenemos las categorias del post.
                   
@@ -143,13 +143,13 @@
   <section class="container-fluid">
     <div class="row">
       <div class="col-lg-12 text-center pb-5">
-        <a href="<?=home_url().'/index.php/cursos/'?>" class="ver_mas_cursos">ver más cursos</a>
+        <a href="<?=home_url().'/cursos/'?>" class="ver_mas_cursos">ver más cursos</a>
       </div>
     </div>
   </section>
 
   <!-- FORMULARIO DE CONTACTO -->
-  <section>
+  <section id="formulario-contacto">
     <div class="container-fluid contenedor__contacto">
       <div class="row">
         <div class="col-lg-6 contenedor__texto">
@@ -166,7 +166,8 @@
           </ul>
         </div>
         <div class="col-lg-6 contenedor__form">
-          <div class="contenedor__formulario">
+        <?php echo do_shortcode('[contact-form-7 id="43"]')?>
+          <!-- <div class="contenedor__formulario">
             <div class="form-group form">
               <input type="text" class="form-control" placeholder="NOMBRE Y APELLIDO">
             </div>
@@ -184,7 +185,7 @@
                 <p>ENVIAR</p>
               </a>
             </div>
-          </div>
+          </div> -->
           <div class="puntos2">
             <img src="<?=getIMG('puntos2_recortado.png')?>" alt="">
           </div>
