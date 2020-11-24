@@ -13,19 +13,21 @@
   <!-- SLIDE -->
   <div class="gradient">
     <div class="slide">
-      <p>SLIDES</p>
+      <img src="<?=getIMG('slider.jpg')?>" alt="slider">
     </div>
   </div>
   <!-- CONTENT -->
   <section class="cuerpo">
     <div class="cuerpo__superior">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="<?= getIMG('puntos5.png')?>" alt="puntos" class="puntos1">
-            <section class="imagen1">
+            <div class="imagen1">
               <img src="<?= getIMG('imagen1.jpg'); ?>" alt="Más Vino">
-            </section>
+              <div class=puntos1>
+                <img src="<?= getIMG('puntos5.png')?>" alt="puntos">
+              </div>
+            </div>
           </div>
           <div class="col-lg-6 pl-5"> 
             <img src="<?= getIMG('linea.png'); ?>" alt="linea">
@@ -35,7 +37,7 @@
             <p class="texto1 pt-1">Bienvenidos al mundo de nuestra <strong>BEBIDA NACIONAL</strong></p>
             <p class="texto1 pt-1">Salud!</p>
           </div>
-           </div>
+        </div>
       </div>
       <div class="container text-center pt-5">
         <div class="row">
@@ -166,7 +168,7 @@
           </ul>
         </div>
         <div class="col-lg-6 contenedor__form">
-        <?php echo do_shortcode('[contact-form-7 id="43"]')?>
+        <?php echo do_shortcode('[contact-form-7 id="55"]')?>
           <!-- <div class="contenedor__formulario">
             <div class="form-group form">
               <input type="text" class="form-control" placeholder="NOMBRE Y APELLIDO">
@@ -217,8 +219,7 @@
           </div>
         </div>
       </div>
-    </div>    
-    <!-- <img src="<?php //echo getIMG('curva.png')?>" width="100%"> -->
+    </div>
   </div>
 </main>
 <?php get_footer(); ?>
