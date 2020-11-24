@@ -88,21 +88,14 @@ ul {
 
 .gradient{
 	background-image: linear-gradient(to top, #eeece4 30%, #ef3741 100px);
-	height: 453px;
 }
 
 .slide{
-	background-color: #ffffff;
-	margin: auto;
-	height: 100%;
-	width: 80%;
 	text-align: center;
 }
-
-.slide p{
-	color: #ef3741;
-	font-size: 500%;
-	padding-top: 150px;
+.slide img{
+	height: 400px;
+	max-width: 100%;
 }
 
 /* ------ CONTENT ------ */
@@ -120,13 +113,14 @@ ul {
 }
 
 .imagen1{
+	position: relative;
 	text-align: right;
 }
 
 .puntos1{
 	position: absolute;
-	margin-left: 200px;
-	margin-top: 120px;
+	left: 10%;
+	top: 25%;
 }
 
 .sobremi{
@@ -226,7 +220,6 @@ ul {
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 23px;
 	font-weight: 800;
-	/*padding: 15px 30px;*/
 	padding: 7px 10px;
     display: block;
     max-width: 220px;
