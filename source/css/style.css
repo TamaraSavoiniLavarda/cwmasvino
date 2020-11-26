@@ -232,6 +232,14 @@ ul {
 	color: #32112C;
 }
 
+.testimonios{
+	font-family: 'Josefin Sans';
+	font-size: 56px;
+	font-weight: bold;
+	color: #ee3740;
+	
+}
+
 /* ------ CONTACTO ------ */
 #formulario-contacto {
 	padding-top: 50px;

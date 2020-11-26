@@ -150,6 +150,18 @@
     </div>
   </section>
 
+  <!-- TESTIMONIOS -->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <div class="contenedor_testimonios">
+            <h1 class="testimonios">testimonios</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <!-- FORMULARIO DE CONTACTO -->
   <section id="formulario-contacto">
     <div class="container-fluid contenedor__contacto">
